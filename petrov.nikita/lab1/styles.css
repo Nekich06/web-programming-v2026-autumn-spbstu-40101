@@ -43,19 +43,21 @@ h1 {
   text-decoration: none;
   text-align: center;
   font-size: 16px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .main-nav a:hover {
   background-color: #34495e;
 }
 
-.main-nav a.active {
+.main-nav .active {
   background-color: #e74c3c;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
 }
 
-.main-nav a.active:hover {
+.main-nav .active:hover {
   background-color: #c0392b;
 }
