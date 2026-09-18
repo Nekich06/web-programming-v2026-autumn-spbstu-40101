@@ -1,5 +1,7 @@
 export function countOccurrences(arr) {
-  if (arr == null) return {};
+  if (arr === null || arr === undefined) {
+    return {};
+  }
 
   const result = {};
   for (const item of arr) {
